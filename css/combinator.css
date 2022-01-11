@@ -1,0 +1,119 @@
+/*Tag to tag*/
+
+/*div span{
+	color: red;
+}*/
+
+/*Tags to Tag*/
+
+/*div span p{
+	color: red;
+}*/
+
+/*Tag to Class*/
+
+/*div .address{
+	color: sandybrown;
+}*/
+
+/*Multi Tags to Class*/
+
+/*div span .name{
+	color: orangered;
+}*/
+
+/*Multi tags to Same Class*/
+
+/*div span small.name{
+	color: pink;
+}*/
+
+/*Multi Class to Class*/
+
+/*.bank .money .currency{
+	color: yellowgreen;
+}*/
+
+/*Tag to Multi Class*/
+
+/*div .name .age{
+	color: blueviolet;
+}*/
+
+/*.container p{
+	color: goldenrod;
+}*/
+
+/*.container b{
+	color: red;
+}*/
+
+/*Class to Multi Tags*/
+
+/*.container b span{
+	color: darkblue;
+}*/
+
+/*Same Class*/
+
+/*.mobile.jpn{
+	color:forestgreen ;
+}
+
+.mobile.cn{
+	color: lavender;
+}
+
+.mobile.us{
+	color: lightblue;
+}*/
+
+/*21CBM
+WDFXXX*/
+
+/*Class To Same Class*/
+
+/*.vehicle .car.jpn{
+	color: darkred;
+
+}
+
+.vehicle .car.cn{
+	color: blueviolet;
+
+}
+
+.vehicle .car.indo{
+	color: greenyellow;
+}*/
+
+/*Class to Tag by group Selector*/
+
+/*.div1 p, .div1 b{
+	color: blueviolet;
+} */
+
+/*Child Selector (>)*/
+
+/*.div2 > p{
+	color: deeppink;
+}*/
+
+/*Sibling Selector 2types*/
+
+/*i.General Silibing Selector (~)*/
+
+/*.div4 ~ p{
+	color: darkorange;
+
+}*/
+
+
+
+
+/*ii.Adjecent Sibiling Selector*/
+
+.div9 + b{
+	color: deeppink;
+
+}

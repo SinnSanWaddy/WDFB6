@@ -1,0 +1,196 @@
+.firstdiv{ 
+	width: 500px;
+	height: 500px;
+	text-decoration: overline;
+	letter-spacing: 10px;
+	text-align: center;
+	background-color:rgba(143,213,127,1.00) ;
+	background-image: url('../img/cover/haikyuu1.jpg');
+	border: 5px solid red ;
+			color:violet;
+}
+
+.secdiv{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	line-height: 15;
+	text-decoration: line-through;
+	background:linear-gradient(rgba(32,232,127,1.00),skyblue,#de554b);
+	background: radial-gradient(#de554b,violet,rgba(32,232,127,1.00));
+	border: 2px solid pink;
+}
+
+.textshadow{ 
+	width: 150px;
+	height: 80px;
+	text-shadow:5px 5px 10px rgba(223,40,127,1.00) ;
+	 		border-radius: 15px;
+	 		border-style: outset;
+	 		color: deeppink;
+
+}
+
+.borderstyle1{
+	width: 350px;
+	height: 100px;
+	line-height: 6;
+	border-style: inset;
+	border-radius: 50%;
+	text-shadow: 5px 5px 05px red;
+	background: linear-gradient(
+								 pink 70%,
+								 skyblue 40%);
+	/*background: radial-gradient(rgba(147,57,127,0.62));*/
+	color: green;
+}
+
+.borderstyle2{
+	width:350px;
+	height: 150px;
+	line-height:7 ;
+	text-shadow: 3px -3px 03px skyblue;
+	background: lightyellow;
+	border-top-left-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 100px;
+	
+	border-style: dashed;
+	color: violet;
+}
+
+.head{
+	width: 200px;
+	border-style: double;
+
+}
+
+input{
+	width: 200px;
+	height: 25px;
+	border-radius: 20px;
+	background-color: rosybrown;
+	color: red;
+	cursor: pointer;
+
+
+}
+
+.a{
+	text-shadow: 5px 5px 02px pink;
+	border: 30px;
+	border-style: dashed;
+	color:purple ;
+}
+
+li{ 
+	width: 150px;
+	height: 25px;
+	list-style-type: decimal-leading-zero;
+	border: 3px;
+	border-style: double;
+	border-color: seagreen;
+
+	list-style-position: inside;
+}
+
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+section{
+	padding: 80px 0;
+    background: url('img/goujou.jpg');
+	background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+
+	/*background-color: yellow;*/
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	
+}
+
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: conic-gradient(
+	       red 30%,
+	       forestgreen 0% 40%,
+	       skyblue 0% 70%,
+	       goldenrod 0%         
+	   );
+    
+}
+
+.fontawesome{
+	background: #000;
+	padding: 10px 20px;
+    box-shadow: 0px 0px 10px hotpink;
+    margin-left: 30px;
+   
+    display: inline-block;
+
+}
+
+.fontawesome i{
+	font-size: 120%;
+	padding: 10px 10px;
+	color: hotpink;
+
+}
+
+.fontawesome a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.fontawesome:hover{
+	transition: all 1s;
+	background-color: skyblue;
+
+}
+
+h1{
+	color: #666;
+	
+	font-family:Roboto;
+	text-align: center;
+
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+h3{
+color: #999;
+	
+	font-family:Roboto;
+	text-align: center;
+
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+h3::after{
+	content: '';
+	display: block;
+	border-bottom: 2px solid palevioletred;
+	margin: 0 auto;
+	width: 100px;
+	padding-top: 10px;
+
+
+}
+
+.para::selection{
+	background-color: hotpink;
+	color: red;
+
+}

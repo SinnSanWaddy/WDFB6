@@ -1,0 +1,120 @@
+:root{
+	--oc: orange;
+	--or: red;
+	--oy: #ff04;
+	--op: pink;
+	--ov: violet;
+	--ob: skyblue;
+}
+
+.div1{
+	width: 100px;
+	height: 80px;
+	background-color: var(--oy);
+     
+   /* rotate(xy)*/
+	transform: rotate(45deg);
+}
+
+.div2{
+	width: 200px;
+	height: 80px;
+	background-color: var(--or);
+
+	transform: rotate(-45deg);
+}
+
+.div3{
+	width: 200px;
+	height: 80px;
+	background-color: var(--oc);
+
+	transform: rotateX(50deg);
+
+}
+.div4{
+	width: 200px;
+	height: 80px;
+	background-color: var(--ov);
+	transform: rotateY(50deg);
+}
+
+.div5{
+	width: 200px;
+	height: 80px;
+	background-color: var(--op);
+
+	transform: scale(0.5);
+}
+
+.div6{
+	width: 200px;
+	height: 80px;
+	background-color: var(--ob);
+
+	transform: skew(50deg);
+	transform: skew(-50deg);
+}
+
+.div7{
+	width: 200px;
+	height: 80px;
+	background-color: var(--or);
+
+           
+           /*default X*/
+           /*current position*/
+
+	/*transform: translate(-50%);
+	transform: translate(50%);
+	transform: translate(100%);*/
+	/*transform: translate(-100%);*/
+
+	transform: translateY(-20%);
+
+}
+
+.country{
+	font-size:16px ;
+
+	/*Vendors Prifx Properties*/
+
+	-webkit-appearance: none; /*Chrome Sfri Opera -o-,Internet Explorer -ms-*/
+	-moz-appearance: none; /*Fire Fox Mozila*/
+	appearance: none;
+
+	padding: 10px 25px 10px 10px;
+	background-image: url('../img/downarrow.png');
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-x: 90%;
+}
+
+h1{
+	text-align: center;
+}
+
+p.text{
+	text-align: center;
+	color: red;
+}
+
+@media(max-width: 600px){
+	h1{
+		font-size:25px;
+	color:hotpink;
+}
+
+p.text{
+	color: violet;
+}
+
+}
+
+
+
+
+
+
+29FL

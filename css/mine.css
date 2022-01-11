@@ -1,0 +1,15 @@
+h1{
+	color: deeppink;
+	text-align: center;
+	
+
+}
+
+h1::after{
+	content: '';
+	border-bottom: 2px solid darkviolet;
+	display:  block;
+	margin: 0 auto;
+	widows: 150px;
+	padding-top: 10px;
+}

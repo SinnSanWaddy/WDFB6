@@ -1,0 +1,21 @@
+.paragraph::first-line{
+	color: blueviolet;
+	font-size: 20px;
+}
+/*.paragraph::before{
+	content: "ABC";
+}*/
+
+.paragraph::after{
+	content: " ABC";
+}
+
+.paragraph::first-letter{
+	color: darkred;
+	font-size: 40px;
+}
+
+.paragraph::selection{
+	background-color:sandybrown;
+	color: #fff;
+}

@@ -1,0 +1,112 @@
+.firstdiv{
+	width:200px;
+	height:100px;
+	/*background-color: green;
+	background-color: #9ef763;
+	background-color: rgba(195,108,127,1.00);
+*/
+	/*background: green;
+	background: #9ef763;*/
+	background:rgba(195,108,127,1.00);
+
+ 	color:blue
+	font-size:20px;
+
+}
+
+.seconddiv{
+	width: 500px;
+	height: 500px;
+
+	/*background-image:url('../img/cover/bg1.jpg');*/
+	background:url('../img/cover/bg1.jpg') ;
+
+	/*background-repeat:no-repeat ;*/
+	/*background-repeat: repeat;*/
+     /*background-repeat: repeat-x ;*/
+     background-repeat: repeat-y;
+
+     background-position: center;
+	border:2px;
+	border-style: solid;
+	border-color:red;
+	/*Short Hand*/
+	          /*s s c*/
+	 border: 5px solid pink;
+
+	/*background-color: white;*/
+	color: white;
+}
+
+.divthree{
+	width: 300px;
+	height: 300px;
+	border: 3px solid red;
+
+	/*color: white;*/
+	/*background: linear-gradient(red,violet,lightgreen,skyblue);
+	background-image: linear-gradient(red,violet,lightgreen,skyblue);
+	background: linear-gradient(#9ef763,#f79463);*/
+	/*background: linear-gradient(rgba(165,177,127,1.00),rgba(242,35,127,1.00));*/
+
+	/*background: linear-gradient(
+		45deg,
+		red,
+		violet,
+		yellow
+
+		);*/
+	/*background: radial-gradient(pink,brown,skyblue);*/
+	/*background: radial-gradient(#de6c1b,#19a836);*/
+	/*background: radial-gradient(rgba(165,177,127,1.00),rgba(242,35,127,1.00),rgba(135,222,64,1.00));*/
+	
+	/*background: radial-gradient(
+		rgba(165,177,127,0.5),
+		rgba(242,35,127,0.5)
+		),
+	     url('../img/cover/bg2.jpg');
+	    background-repeat: no repeat;
+	    background-position: center;
+	    background-size: cover;*/
+
+	    /*background:linear-gradient(
+	    	
+	    	red 70%,
+	    	blue 30%
+	    	);*/
+	    background: linear-gradient(
+	    	red 30%,
+	    	orange 0% 50%,
+	    	blue 50%
+	    	);
+
+	    	
+
+}
+
+.divfour{
+	width: 200px;
+	height: 300px;
+
+	color: white;
+	background:linear-gradient(
+		45deg,
+		rgba(57,190,127,0.5),
+		rgba(225,36,7,0.5)),
+		url('../img/cover/bg2.jpg');
+	background-repeat: no repeat;
+}
+
+
+
+/*function
+name*/
+
+/*sigle parameter function 
+name  (parameter) eg.img url
+
+muli parameter function
+name ( parameter,parameter)*/
+
+/*WDF6401
+30GC*/
